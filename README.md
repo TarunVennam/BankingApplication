@@ -34,3 +34,10 @@ A simple Banking Application built with **Spring Boot** that provides core banki
 ```bash
 git clone https://github.com/TarunVennam/BankingApplication.git
 cd BankingApplication
+
+###Configure MySQL
+
+spring.datasource.url=jdbc:mysql://localhost:3306/bankapp
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+spring.jpa.hibernate.ddl-auto=update
