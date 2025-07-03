@@ -64,7 +64,6 @@ The application will start on `http://localhost:8080`.
 - `POST /api/auth/register` — Register a new user
 - `POST /api/auth/login` — Login and receive JWT token
 - `/api/user/...` — User operations (view balance, make transactions, etc.)
-- `/api/admin/...` — Admin operations
 - **Swagger UI:** [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 
